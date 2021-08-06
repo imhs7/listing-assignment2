@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF6710D126BD03A40009CC5B /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6710D026BD03A40009CC5B /* Reusable.swift */; };
+		EF6710D326BD04900009CC5B /* Filter Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6710D226BD04900009CC5B /* Filter Model.swift */; };
+		EF6710D526BD06F50009CC5B /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6710D426BD06F50009CC5B /* Parser.swift */; };
 		EF9905C426B1C8F7004C384A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9905C326B1C8F7004C384A /* AppDelegate.swift */; };
 		EF9905C626B1C8F7004C384A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9905C526B1C8F7004C384A /* SceneDelegate.swift */; };
 		EF9905C826B1C8F7004C384A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9905C726B1C8F7004C384A /* ViewController.swift */; };
@@ -38,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF6710D026BD03A40009CC5B /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		EF6710D226BD04900009CC5B /* Filter Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Filter Model.swift"; sourceTree = "<group>"; };
+		EF6710D426BD06F50009CC5B /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		EF9905C026B1C8F7004C384A /* ListingAssignment2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListingAssignment2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9905C326B1C8F7004C384A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF9905C526B1C8F7004C384A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +88,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF6710CC26BCEC320009CC5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFC7E34826B2782B00F5D8F6 /* model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF6710CD26BCEC7F0009CC5B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFC7E34A26B27A8800F5D8F6 /* CustomCollectionViewCell.swift */,
+				EF9905C726B1C8F7004C384A /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF6710CE26BCECB40009CC5B /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF6710D226BD04900009CC5B /* Filter Model.swift */,
+				EF6710D426BD06F50009CC5B /* Parser.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		EF6710CF26BCECCF0009CC5B /* Section Header */ = {
+			isa = PBXGroup;
+			children = (
+				EFC7E34C26B27BBF00F5D8F6 /* Header.swift */,
+			);
+			path = "Section Header";
+			sourceTree = "<group>";
+		};
 		EF9905B726B1C8F7004C384A = {
 			isa = PBXGroup;
 			children = (
@@ -107,12 +147,13 @@
 			children = (
 				EF9905C326B1C8F7004C384A /* AppDelegate.swift */,
 				EF9905C526B1C8F7004C384A /* SceneDelegate.swift */,
-				EFC7E34826B2782B00F5D8F6 /* model.swift */,
-				EFC7E34A26B27A8800F5D8F6 /* CustomCollectionViewCell.swift */,
-				EFC7E34C26B27BBF00F5D8F6 /* Header.swift */,
-				EF9905C726B1C8F7004C384A /* ViewController.swift */,
-				EF9905C926B1C8F7004C384A /* Main.storyboard */,
+				EF6710CC26BCEC320009CC5B /* Model */,
+				EF6710CD26BCEC7F0009CC5B /* View */,
+				EF6710CE26BCECB40009CC5B /* View Model */,
+				EF6710CF26BCECCF0009CC5B /* Section Header */,
+				EF6710D026BD03A40009CC5B /* Reusable.swift */,
 				EF9905CC26B1C8F8004C384A /* Assets.xcassets */,
+				EF9905C926B1C8F7004C384A /* Main.storyboard */,
 				EF9905CE26B1C8F8004C384A /* LaunchScreen.storyboard */,
 				EF9905D126B1C8F8004C384A /* Info.plist */,
 			);
@@ -268,8 +309,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF9905C826B1C8F7004C384A /* ViewController.swift in Sources */,
+				EF6710D126BD03A40009CC5B /* Reusable.swift in Sources */,
 				EFC7E34B26B27A8800F5D8F6 /* CustomCollectionViewCell.swift in Sources */,
 				EF9905C426B1C8F7004C384A /* AppDelegate.swift in Sources */,
+				EF6710D326BD04900009CC5B /* Filter Model.swift in Sources */,
+				EF6710D526BD06F50009CC5B /* Parser.swift in Sources */,
 				EF9905C626B1C8F7004C384A /* SceneDelegate.swift in Sources */,
 				EFC7E34D26B27BBF00F5D8F6 /* Header.swift in Sources */,
 				EFC7E34926B2782B00F5D8F6 /* model.swift in Sources */,
